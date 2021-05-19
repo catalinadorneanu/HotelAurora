@@ -1,0 +1,103 @@
+﻿body {
+    background-color: #434d56;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #d06f49;
+}
+
+nav {
+    background-color: #ec8456;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home:hover, #stanze:hover, #cont:hover {
+    background-color: #503932;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #d06f49;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#elementoSx {
+    flex: 50%;
+    
+}
+
+#elementoDx {
+    flex: 50%;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.contatti {
+    width: 100%;
+    text-align: center;
+    background-color: #f3b295;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#singola {
+    text-align: center;
+    border-bottom: dashed 4px #503932;
+    background-color: #f3b295;
+}
+#boxS {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+}
+#singola p {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+#matri {
+    text-align: center;
+    border-bottom: dashed 4px #503932;
+    background-color: #f3b295;
+}
+#boxM {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+}
+#matri p {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#suite {
+    text-align: center;
+    border-bottom: dashed 4px #503932;
+    background-color: #f3b295;
+}
+#boxD {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+}
+#suite p {
+    margin-left: 80px;
+    margin-right: 80px;
+}

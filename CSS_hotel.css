@@ -1,0 +1,85 @@
+﻿body {
+    background-color: #5b6265;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #d06f49;
+}
+
+nav {
+    /* background-color: #2989D8;
+    border: 3px solid black;*/
+    display: flex;
+    justify-content: center;
+}
+
+#home:hover, #sta:hover, #cont:hover {
+    /* background-color: #D67627;*/
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    /* background-color: #2989D8;
+    border: 3px solid black;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*#elementoSx {
+    flex: 50%;
+}
+
+#elementoDx {
+    flex: 50%;
+}*/
+
+
+
+.contatti {
+    border: 2px dotted black;
+    width: 100%;
+    text-align: center;
+    background-color: #d0efff;
+    display: flex;
+    flex-direction: row;
+}
+
+#singola {
+    text-align: center;
+    border-bottom: dashed 4px brown;
+}
+
+    #singola p {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+
+#matri {
+    text-align: center;
+    border-bottom: dashed 4px brown;
+}
+
+    #matri p {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+
+#suite {
+    text-align: center;
+    border-bottom: dashed 4px brown;
+}
+
+    #suite p {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
